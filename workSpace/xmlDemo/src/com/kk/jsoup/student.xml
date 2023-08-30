@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students>
+
+    <student id="kk_01">
+        <name english = "kun">kkkkkkk</name>
+        <age>18</age>
+        <sex>male</sex>
+    </student>
+
+    <student id="kk_02">
+        <name english="kkakoka">kk</name>
+        <age>18</age>
+        <sex>male</sex>
+    </student>
+
+</students>

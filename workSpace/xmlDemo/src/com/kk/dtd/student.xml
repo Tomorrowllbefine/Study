@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE studnets SYSTEM "student.dtd">
+<studnets>
+    <student number="kk01">
+        <name>kk</name>
+        <age>21</age>
+        <sex>male</sex>
+    </student>
+    <student number="kk02">
+        <name>kk</name>
+        <age>21</age>
+        <sex>male</sex>
+    </student>
+</studnets>

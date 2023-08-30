@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation = "http://www.itbaizhan.cn/xml  student.xsd"
+    xmlns = "http://www.itbaizhan.cn/xml">
+
+    <student number="kk_01">
+        <name>kkkkkkk</name>
+        <age>18</age>
+        <sex>male</sex>
+    </student>
+
+    <student number="kk_02">
+        <name>kk</name>
+        <age>18</age>
+        <sex>male</sex>
+    </student>
+
+</students>

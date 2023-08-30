@@ -1,0 +1,6 @@
+<?xml version = '1.0'?> <!-- 文档声明 -->
+<students>  <!-- 根标签 -->
+	<student id ='001'></student>
+	<student id ='002'></student>
+	<student id ='003'></student>
+</students>
