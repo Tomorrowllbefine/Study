@@ -13,6 +13,14 @@
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/socketDemo.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kk/One2MoreCommunicate/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kk/P2PCommunicate/P2PSocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kk/P2PCommunicate/P2PSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kk/P2PCommunicatePlus/P2PCommunicatePlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kk/TCPBothWayCommunicate/BothWaySocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kk/TCPBothWayCommunicate/BothWaySocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kk/TCPCommunicateDemo/BasicClientSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kk/TCPOnewayCommunicate/OneWaySocketClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,61 +38,102 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2UeledECU2VpD9c0Esmo50y7g0N" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.URLTest1">
-    <configuration name="InetSocketAddressTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InetSocketAddressTest" />
+}]]></component>
+  <component name="RunManager" selected="Application.P2PCommunicatePlus">
+    <configuration name="EchoServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kk.One2MoreCommunicate.EchoServer" />
       <module name="socketDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.One2MoreCommunicate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InetTest" />
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kk.One2MoreCommunicate.EchoServer" />
       <module name="socketDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.One2MoreCommunicate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URLTest" />
+    <configuration name="P2PCommunicatePlus (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kk.P2PCommunicatePlus.P2PCommunicatePlus" />
       <module name="socketDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.P2PCommunicatePlus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URLTest1" />
+    <configuration name="P2PCommunicatePlus (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kk.P2PCommunicatePlus.P2PCommunicatePlus" />
       <module name="socketDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.P2PCommunicatePlus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P2PCommunicatePlus" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kk.P2PCommunicatePlus.P2PCommunicatePlus" />
+      <module name="socketDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.P2PCommunicatePlus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.URLTest1" />
-        <item itemvalue="Application.URLTest" />
-        <item itemvalue="Application.InetSocketAddressTest" />
-        <item itemvalue="Application.InetTest" />
+        <item itemvalue="Application.P2PCommunicatePlus" />
+        <item itemvalue="Application.EchoServer (1)" />
+        <item itemvalue="Application.EchoServer" />
+        <item itemvalue="Application.P2PCommunicatePlus (3)" />
+        <item itemvalue="Application.P2PCommunicatePlus (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +146,8 @@
       <option name="presentableId" value="Default" />
       <updated>1693308025088</updated>
       <workItem from="1693308026367" duration="4368000" />
-      <workItem from="1693377591522" duration="876000" />
+      <workItem from="1693377591522" duration="7971000" />
+      <workItem from="1693446169143" duration="7503000" />
     </task>
     <servers />
   </component>
