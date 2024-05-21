@@ -32,6 +32,7 @@ public class HashMapTest01 {
         // 获取元素3：通过Map.Entry获取键值对遍历
         Set<Map.Entry<String, String>> entries = map.entrySet();
         for (Map.Entry<String,String>  entry :  entries ) {
+            System.out.println(entry.getClass());
             String key = entry.getKey();
             String value = entry.getValue();
             System.out.println("key:"+ key +  " -- "+"value:"+ value);

@@ -14,13 +14,13 @@ public class HashSetTest01 {
         System.out.println(tag1 + " " + tag2+" " + tag3 + " "+ tag4);
         System.out.println(set);
 
-        // 删除元素
-        boolean tag5 =  set.remove("a");
-        System.out.println("删除返回值:" + tag5);
-        System.out.println(set);
-
-        // 获取大小
-        System.out.println("大小: " + set.size());
+//        // 删除元素
+//        boolean tag5 =  set.remove("a");
+//        System.out.println("删除返回值:" + tag5);
+//        System.out.println(set);
+//
+//        // 获取大小
+//        System.out.println("大小: " + set.size());
 
     }
 }

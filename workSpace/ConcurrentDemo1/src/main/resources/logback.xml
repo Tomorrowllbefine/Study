@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<configuration-->
+<!--        xmlns="http://ch.qos.logback/xml/ns/logback"-->
+<!--        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--        xsi:schemaLocation="http://ch.qos.logback/xml/ns/logback logback.xml">-->
+
+<!--    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">-->
+<!--        <encoder>-->
+<!--            <pattern>%data{HH:mm:ss} [%t] %logger - %m%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+<!--    <logger name="c" level="debug" additivity="false">-->
+<!--        <appender-ref ref="STDOUT"/>-->
+<!--    </logger>-->
+
+<!--    <root level="ERROR">-->
+<!--        <appender-ref ref="STDOUT"/>-->
+<!--    </root>-->
+<!--</configuration>-->
+
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/app.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>logs/app.%d{yyyy-MM-dd}.log</fileNamePattern>
+
+            <!-- keep 30 days' history -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
+    </root>
+
+    <logger name="com.example.myapp" level="info" additivity="false">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
+    </logger>
+</configuration>
